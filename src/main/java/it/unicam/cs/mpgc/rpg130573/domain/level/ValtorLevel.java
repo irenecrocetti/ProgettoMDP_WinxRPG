@@ -5,6 +5,10 @@ import it.unicam.cs.mpgc.rpg130573.domain.model.villains.Villain;
 
 import java.util.List;
 
+/**
+ * Livello 3: le Winx affrontano Valtor. Si vince solo se
+ * viene sconfitto.
+ */
 public class ValtorLevel implements Level{
     @Override
     public int getId() {

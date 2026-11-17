@@ -17,6 +17,9 @@ import javafx.scene.control.Label;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
+/**
+ * Cambia la schermata visualizzata all'interno del gioco.
+ */
 public class SceneNavigator implements Navigator{
     private static final double WIDTH = 1100;
     private static final double HEIGHT = 760;

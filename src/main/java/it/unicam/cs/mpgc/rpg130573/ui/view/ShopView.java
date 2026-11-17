@@ -17,6 +17,9 @@ import javafx.scene.layout.*;
 
 import java.util.List;
 
+/**
+ * Schermata che rappresenta il negozio all'interno del gioco.
+ */
 public class ShopView extends BorderPane {
     private static final double PORTRAIT_HEIGHT = 200;
 

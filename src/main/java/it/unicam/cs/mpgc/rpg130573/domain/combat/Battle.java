@@ -18,6 +18,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Predicate;
 
+/**
+ * Descrive una battaglia
+ */
 public class Battle {
     private final List<Winx> winxes;
     private final List<Villain> villains;

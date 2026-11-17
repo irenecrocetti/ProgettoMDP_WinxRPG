@@ -9,6 +9,9 @@ import it.unicam.cs.mpgc.rpg130573.application.battle.TurnReport;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Formatta il log durante una battaglia.
+ */
 final class TurnReportFormatter {
     private TurnReportFormatter() {}
 

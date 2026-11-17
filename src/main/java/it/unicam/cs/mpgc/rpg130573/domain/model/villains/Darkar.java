@@ -7,6 +7,9 @@ import static it.unicam.cs.mpgc.rpg130573.domain.ability.spells.SpellBeahavior.d
 import static it.unicam.cs.mpgc.rpg130573.domain.ability.spells.SpellBeahavior.inflict;
 import static it.unicam.cs.mpgc.rpg130573.domain.effect.StatusEffects.sickness;
 
+/**
+ * Definisce le statistiche ed abilità di Darkar
+ */
 public class Darkar extends Villain{
     private static final int DARKAR_HEALTH = 200;
     private static final int DARKAR_ACCURACY = 80;

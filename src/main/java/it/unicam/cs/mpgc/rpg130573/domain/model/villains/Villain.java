@@ -3,7 +3,10 @@ package it.unicam.cs.mpgc.rpg130573.domain.model.villains;
 import it.unicam.cs.mpgc.rpg130573.domain.model.Entity;
 import it.unicam.cs.mpgc.rpg130573.domain.model.managers.StatusManager;
 
-public  class Villain extends Entity {
+/**
+ * Classe che estende Entity ed implementa un Villain generico
+ */
+public class Villain extends Entity {
     private int accuracy;
     private int XPReleased;
 

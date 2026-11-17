@@ -7,6 +7,9 @@ import static it.unicam.cs.mpgc.rpg130573.domain.ability.spells.SpellBeahavior.d
 import static it.unicam.cs.mpgc.rpg130573.domain.ability.spells.SpellBeahavior.inflict;
 import static it.unicam.cs.mpgc.rpg130573.domain.effect.StatusEffects.frost;
 
+/**
+ * Definisce le statistiche ed abilità di Stormy
+ */
 public class Stormy extends Villain{
     public static final int STORMY_HEALTH = 90;
     public static final int STORMY_ACCURACY = 70;

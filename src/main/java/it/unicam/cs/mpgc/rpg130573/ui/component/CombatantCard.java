@@ -15,6 +15,9 @@ import javafx.scene.layout.VBox;
 
 import java.util.stream.Collectors;
 
+/**
+ * Implementa la card di un personaggio nella ui
+ */
 public class CombatantCard extends VBox {
 
     public enum Highlight { NONE, ACTIVE, TARGETABLE }

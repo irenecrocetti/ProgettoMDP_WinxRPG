@@ -24,6 +24,9 @@ import java.util.List;
 import java.util.function.BooleanSupplier;
 import java.util.function.Supplier;
 
+/**
+ * La schermata di una battaglia.
+ */
 public class BattleView extends BorderPane {
     private static final double PORTRAIT_HEIGHT = 150;
 

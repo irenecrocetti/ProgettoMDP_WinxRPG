@@ -7,6 +7,9 @@ import static it.unicam.cs.mpgc.rpg130573.domain.ability.spells.SpellBeahavior.d
 import static it.unicam.cs.mpgc.rpg130573.domain.ability.spells.SpellBeahavior.inflict;
 import static it.unicam.cs.mpgc.rpg130573.domain.effect.StatusEffects.frost;
 
+/**
+ * Definisce le statistiche ed abilità di Icy
+ */
 public class Icy extends Villain{
     private static final int ICY_HEALTH = 100;
     private static final int ICY_ACCURACY = 70;

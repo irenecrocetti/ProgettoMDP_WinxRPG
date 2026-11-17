@@ -6,6 +6,9 @@ import it.unicam.cs.mpgc.rpg130573.domain.ability.spells.StandardVillainSpell;
 
 import static it.unicam.cs.mpgc.rpg130573.domain.ability.spells.SpellBeahavior.damage;
 
+/**
+ * Definisce le statistiche ed abilità di Darcy
+ */
 public class Darcy extends Villain{
     public static final int DARCY_HEALTH = 100;
     public static final int DARCY_ACCURACY = 70;

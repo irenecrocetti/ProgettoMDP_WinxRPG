@@ -7,6 +7,10 @@ import it.unicam.cs.mpgc.rpg130573.domain.model.villains.Villain;
 
 import java.util.List;
 
+/**
+ * Livello 2: le Winx combattono contro Darkar. Si vince se viene
+ * sconfitto.
+ */
 public class DarkarLevel implements Level{
     @Override
     public int getId() {
@@ -28,6 +32,9 @@ public class DarkarLevel implements Level{
         return villains.stream().noneMatch(v -> v instanceof Darkar && v.isAlive());
     }
 
+    /**
+     * Crea l'evento che deve essere scatenato nel livello
+     */
     @Override
     public List<BattleEvent> createEvents() {
         return List.of(new DarkarHalfLifeEvent());

@@ -18,6 +18,9 @@ import javafx.scene.layout.*;
 
 import javafx.scene.control.Label;
 
+/**
+ * Schermata per selezionare i livelli.
+ */
 public class LevelSelectView extends BorderPane {
     private static final double PARTY_PORTRAIT_HEIGHT = 90;
 

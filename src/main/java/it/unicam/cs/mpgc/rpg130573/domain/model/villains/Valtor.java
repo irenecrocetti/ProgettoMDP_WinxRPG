@@ -7,6 +7,9 @@ import static it.unicam.cs.mpgc.rpg130573.domain.ability.spells.SpellBeahavior.d
 import static it.unicam.cs.mpgc.rpg130573.domain.ability.spells.SpellBeahavior.inflict;
 import static it.unicam.cs.mpgc.rpg130573.domain.effect.StatusEffects.burn;
 
+/**
+ * Definisce le statistiche ed abilità di Valtor
+ */
 public class Valtor extends Villain{
     private static final int VALTOR_HEALTH = 450;
     private static final int VALTOR_ACCURACY = 90;
