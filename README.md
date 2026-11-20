@@ -33,7 +33,7 @@ cd ProgettoMDP_WinxRPG
 ---
 
 ## 🤖 Uso di strumenti di AI
-Durante lo sviluppo è stato usato Claude esclusivamente come strumento di supporto. 
+Durante lo sviluppo sono state usati gli strumenti AI Claude, Gemini e ChatGPT esclusivamente come strumento di supporto. 
 In particolare, suddetti strumenti sono stati usati per:
 - Chiarire ed approfondire i concetti teorici di progettazione riguardanti
 Java, JavaFX, OOP e principi SOLID;
