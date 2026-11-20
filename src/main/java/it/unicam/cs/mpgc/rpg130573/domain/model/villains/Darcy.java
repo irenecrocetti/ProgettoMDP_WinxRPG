@@ -4,7 +4,7 @@ package it.unicam.cs.mpgc.rpg130573.domain.model.villains;
 import it.unicam.cs.mpgc.rpg130573.domain.ability.enums.CharacterAllocation;
 import it.unicam.cs.mpgc.rpg130573.domain.ability.spells.StandardVillainSpell;
 
-import static it.unicam.cs.mpgc.rpg130573.domain.ability.spells.SpellBeahavior.damage;
+import static it.unicam.cs.mpgc.rpg130573.domain.ability.spells.SpellBehavior.damage;
 
 /**
  * Definisce le statistiche ed abilità di Darcy

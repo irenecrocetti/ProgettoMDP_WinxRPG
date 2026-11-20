@@ -15,9 +15,9 @@ import java.util.Objects;
 public class StandardWinxSpell extends WinxSpell{
     private final SpellProfile profile;
     private final SpellCost cost;
-    private final SpellBeahavior beahavior;
+    private final SpellBehavior beahavior;
 
-    public StandardWinxSpell(SpellProfile profile, SpellCost cost, SpellBeahavior beahavior){
+    public StandardWinxSpell(SpellProfile profile, SpellCost cost, SpellBehavior beahavior){
         this.profile = Objects.requireNonNull(profile);
         this.cost = Objects.requireNonNull(cost);
         this.beahavior = Objects.requireNonNull(beahavior);

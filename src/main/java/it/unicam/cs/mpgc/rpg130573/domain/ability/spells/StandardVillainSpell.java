@@ -14,16 +14,16 @@ import java.util.Objects;
  */
 public class StandardVillainSpell extends VillainSpell {
     private final SpellProfile profile;
-    private final SpellBeahavior beahavior;
+    private final SpellBehavior beahavior;
 
-    public StandardVillainSpell(SpellProfile profile, SpellBeahavior beahavior){
+    public StandardVillainSpell(SpellProfile profile, SpellBehavior beahavior){
         this.profile = Objects.requireNonNull(profile);
         this.beahavior = Objects.requireNonNull(beahavior);
     }
 
     /** Incantesimo offensivo: bersaglia l'avversario */
     public static StandardVillainSpell attack(String id, String name,
-                                              CharacterAllocation owner, SpellBeahavior beahavior){
+                                              CharacterAllocation owner, SpellBehavior beahavior){
         return new StandardVillainSpell(
                 new SpellProfile(id, name, owner, TargetType.ENEMY, SpellType.OFFENSE), beahavior);
     }

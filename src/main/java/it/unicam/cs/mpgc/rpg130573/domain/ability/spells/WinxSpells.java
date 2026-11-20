@@ -5,7 +5,7 @@ import it.unicam.cs.mpgc.rpg130573.domain.ability.enums.SpellType;
 import it.unicam.cs.mpgc.rpg130573.domain.ability.enums.TargetType;
 
 import static it.unicam.cs.mpgc.rpg130573.domain.ability.enums.CharacterAllocation.*;
-import static it.unicam.cs.mpgc.rpg130573.domain.ability.spells.SpellBeahavior.*;
+import static it.unicam.cs.mpgc.rpg130573.domain.ability.spells.SpellBehavior.*;
 import static it.unicam.cs.mpgc.rpg130573.domain.effect.StatusEffects.*;
 
 /**
@@ -51,13 +51,13 @@ public final class WinxSpells {
 
 
     private static WinxSpell attack(String id, String name, CharacterAllocation owner,
-                                    SpellCost cost, SpellBeahavior beahavior) {
+                                    SpellCost cost, SpellBehavior beahavior) {
         return new StandardWinxSpell(
                 new SpellProfile(id, name, owner, TargetType.ENEMY, SpellType.OFFENSE), cost, beahavior);
     }
 
     private static WinxSpell selfSpell(String id, String name, CharacterAllocation owner,
-                                       SpellType type, SpellCost cost, SpellBeahavior beahavior){
+                                       SpellType type, SpellCost cost, SpellBehavior beahavior){
         return new StandardWinxSpell(
                 new SpellProfile(id, name, owner, TargetType.SELF, type), cost, beahavior);
     }

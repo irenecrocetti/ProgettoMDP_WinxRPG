@@ -4,8 +4,8 @@ import it.unicam.cs.mpgc.rpg130573.domain.ability.enums.CharacterAllocation;
 import it.unicam.cs.mpgc.rpg130573.domain.ability.spells.StandardVillainSpell;
 import it.unicam.cs.mpgc.rpg130573.domain.model.managers.InvulnerableStatusManager;
 
-import static it.unicam.cs.mpgc.rpg130573.domain.ability.spells.SpellBeahavior.damage;
-import static it.unicam.cs.mpgc.rpg130573.domain.ability.spells.SpellBeahavior.inflict;
+import static it.unicam.cs.mpgc.rpg130573.domain.ability.spells.SpellBehavior.damage;
+import static it.unicam.cs.mpgc.rpg130573.domain.ability.spells.SpellBehavior.inflict;
 import static it.unicam.cs.mpgc.rpg130573.domain.effect.StatusEffects.burn;
 
 /**
